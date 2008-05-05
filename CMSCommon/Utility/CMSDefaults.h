@@ -4,8 +4,6 @@
 //  Created by Ryan on 3/1/07.
 //  Copyright 2007 Chimoosoft. All rights reserved.
 //
-//  Common operations related to files.
-//
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
 //  the Free Software Foundation, either version 3 of the License, or
