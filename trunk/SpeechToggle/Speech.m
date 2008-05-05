@@ -2,7 +2,7 @@
 //  Speech.m
 //  SpeechToggle
 //
-//  Created by Ryan Poling on 5/5/2008.
+//  Created by Ryan on 5/5/2008.
 //  Copyright 2008 Chimoosoft. All rights reserved.
 //
 
