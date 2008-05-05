@@ -1,0 +1,70 @@
+﻿/* Localized strings for CMSVersioning; Chimoosoft's version checking system. 
+   CMSVersioning is Copyright ©2007 by Chimoosoft, all right reserved.
+   http://www.chimoosoft.com/
+*/
+
+/* Tranlated to Spanish by Carlos Leopoldo Magaña Zavala. */
+
+/* Note that the %@ will be replaced automatically.  If the localized language
+requires different ordering of these terms, feel free to move the %@ in the localized version. 
+
+If you need to reorder parameters inside the translated string, use the special n$ tags (where n specifies 
+the position of the original argument) in between the formatting characters. The following example 
+shows a string whose two arguments are reversed in the translated string: 
+
+"%@ Error! %@ failed!" = "%2$@ blah blah, %1$@ blah!"; 
+
+*/
+
+
+/* Titles */
+"CheckingForNewVersion" = "Checking for new version of %@.";
+"DownloadingNewVersion" = "Downloading new version of %@.";
+"DownloadComplete" = "Download complete.";
+"UpToDate" = "%@ is up to date.";
+
+"Error" = "An error occurred.";
+
+/* Messages */
+"InitialMessage" = "Checking the internet for a more recent version of %@.";
+
+"VersionNowAvailable" = "Version %@ of %@ is now available.";
+/* i.e.: Version 0.9.2 of TubeTV is now available. */
+
+"ReleasedOnSize" = "\n\nReleased on %@, the update is a %@ download.";
+/* i.e.: Released on Nov 29, 2007, the update is a 1MB download */
+
+"IncompatibleOS" = " Warning: this update has not been tested with your operating system version (%@).";
+
+"CompatibilityRange" = " It is compatible with Mac OS X %@.";
+"CompatibilityAndHigher" = " It is compatible with Mac OS X %@ and higher.";
+
+"Beta" = "beta";
+"BetaRelease" = " This is a beta release.";
+
+"FinishedDownloadingInstructions" = "Finished downloading the new version of %@.\n\nPress the reveal button to show the download in the Finder. Mount the disk image and copy the new version to your Applications folder after quitting the old version.";
+
+"VersionIsLatest" = "Your version of %@ (%@) is the latest version currently available.";
+/* i.e.: Your version of TubeTV (0.9.2) is the latest version currently available. */
+"ReleasedOn" = " It was released on %@.";
+/* i.e.: It was released on Nov 29, 2007. */
+
+"NoNewerVersions" = "No hay nuevas versiones disponibles.";
+
+"MoreInfoVisit" = " Haz click en más información para visitar el sitio web oficial de %@.";
+
+"AutoVersionCheckingEnabled" = "Automatic version checking is enabled.";
+
+/* Error Messages */
+"UnableToSave" = "Unable to download new version of %@.  Please visit %@ with your web browser to download a copy.";
+"UnableToCheck" = "Unable to check for a new version of %@. Please check your internet connection and try again, or visit %@ with your web browser to download a copy."; 
+
+
+/* Button Titles */
+"Okay" = "Aceptar";
+"Cancel" = "Cancelar";
+"MoreInfo" = "Más información…";
+"Reveal" = "Reveal";
+"DownloadNewVersion" = "Download New Version";
+"EnableAutomaticChecking" = "Enable automatic version checking";
+
