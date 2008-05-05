@@ -1,0 +1,45 @@
+/* This file contains localized strings for Speech Toggle which is 
+available at http://www.chimoosoft.com/speechtoggle.html */
+
+/* If you'd like to translate this and the nib files into your language, please read up on Apple's developer
+web site on the proper way to do this and then contact us at support@chimoosoft.com to ask if anyone has submitted
+a translation in your language. */
+
+/* Make sure to save the file in unicode 16 format */
+
+/* The comments should not be translated - only translate the text in the right hand side of the key value pair. */
+
+
+/* Tiger Checking */
+"UnsupportedVersion" = "Unsupported Mac OS X version";
+"RequiresTiger" = "This version of Speech Toggle requires Mac OS X 10.4 (Tiger) or higher.";
+"PleaseUpgrade" = "Please upgrade your system software.";
+
+/* Shared */
+
+"Okay" = "Okay";
+"OK" = "OK";
+
+/* Misc */
+"Donate!" = "Donate!";
+"Thanks!" = "Thanks!";
+
+/* Version Checking */
+"Error" = "An Error Occured.";
+"UnableToCheck" = "Unable to check for a new version of Speech Toggle. Please check your internet connection and try again.";
+
+"productNameCode" = "SpeechToggle";
+"ProductName" = "Speech Toggle";
+
+"UpToDate" = "Speech Toggle is up to date.";
+"NoNewerVersions" = "No newer versions are available.";
+
+"NewVersionAvailable" = "A New Version of Speech Toggle is Available! ";
+"MoreInfoVisit" = " Click More Info to visit the Speech Toggle web page.";
+"AutoChecking" = "Automatic version checking can be enabled or disabled in the preferences.";
+"More Info" = "More Info";
+"Cancel" = "Cancel";
+
+/* Note that the %@ will be replaced with the version number automatically.  If the localized language
+requires different ordering of these terms, please do so in the localized version. */
+"Version %@ is now available." = "Version %@ is now available.";
