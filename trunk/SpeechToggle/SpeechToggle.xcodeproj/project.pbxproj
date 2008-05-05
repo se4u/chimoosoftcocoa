@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9454D4710B4E3F68006C2CD5 /* menuiconon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 9454D46F0B4E3F68006C2CD5 /* menuiconon.tif */; };
+		9454D6C60B4EE43D006C2CD5 /* menuiconoff.tif in Resources */ = {isa = PBXBuildFile; fileRef = 9454D6C50B4EE43D006C2CD5 /* menuiconoff.tif */; };
+		9454D6C90B4EE634006C2CD5 /* menuiconinvert.tif in Resources */ = {isa = PBXBuildFile; fileRef = 9454D6C80B4EE634006C2CD5 /* menuiconinvert.tif */; };
+		9454D9D70B4EF432006C2CD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9454D9D60B4EF432006C2CD5 /* Localizable.strings */; };
+		949066E10B2F5184005CB57F /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 949066E00B2F5184005CB57F /* Controller.m */; };
+		949091020DCFA42C00109C03 /* Speech.m in Sources */ = {isa = PBXBuildFile; fileRef = 949091010DCFA42C00109C03 /* Speech.m */; };
+		9490917F0DCFA9E900109C03 /* CMSVersioning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9490917E0DCFA9E900109C03 /* CMSVersioning.framework */; };
+		949091820DCFA9FA00109C03 /* CMSVersioning.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9490917E0DCFA9E900109C03 /* CMSVersioning.framework */; };
+		9490BEEC0B58ACE9002C6E40 /* CMSCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9490BEEB0B58ACE9002C6E40 /* CMSCommon.m */; };
+		94E17D890C32EE920092EB39 /* CMSFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E17D880C32EE920092EB39 /* CMSFileUtils.m */; };
+		94E17E020C32F58D0092EB39 /* CMSDefaults.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 94E17E000C32F58D0092EB39 /* CMSDefaults.h */; };
+		94E17E030C32F58D0092EB39 /* CMSDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E17E010C32F58D0092EB39 /* CMSDefaults.m */; };
+		94F3998F0B4E25F50057CBC4 /* isrunning.pl in Resources */ = {isa = PBXBuildFile; fileRef = 94F3998D0B4E25F50057CBC4 /* isrunning.pl */; };
+		94F399900B4E25F50057CBC4 /* kill.pl in Resources */ = {isa = PBXBuildFile; fileRef = 94F3998E0B4E25F50057CBC4 /* kill.pl */; };
+		94FAA9140D2EEEDA00D87E11 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FAA9120D2EEEDA00D87E11 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9460DA180D11BEF40066D5C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				949091820DCFA9FA00109C03 /* CMSVersioning.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E17D9F0C32EFC70092EB39 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				94E17E020C32F58D0092EB39 /* CMSDefaults.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* SpeechToggle_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechToggle_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* SpeechToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9454D46F0B4E3F68006C2CD5 /* menuiconon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = menuiconon.tif; sourceTree = "<group>"; };
+		9454D6C50B4EE43D006C2CD5 /* menuiconoff.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = menuiconoff.tif; sourceTree = "<group>"; };
+		9454D6C80B4EE634006C2CD5 /* menuiconinvert.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = menuiconinvert.tif; sourceTree = "<group>"; };
+		9454D9D20B4EF428006C2CD5 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		949066DF0B2F5184005CB57F /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		949066E00B2F5184005CB57F /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		949091000DCFA42C00109C03 /* Speech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speech.h; sourceTree = "<group>"; };
+		949091010DCFA42C00109C03 /* Speech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speech.m; sourceTree = "<group>"; };
+		949091480DCFA72100109C03 /* openspeech.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = openspeech.scpt; sourceTree = "<group>"; };
+		9490917E0DCFA9E900109C03 /* CMSVersioning.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CMSVersioning.framework; path = ../Frameworks/CMSVersioning/trunk/build/Release/CMSVersioning.framework; sourceTree = SOURCE_ROOT; };
+		9490BEEA0B58ACE9002C6E40 /* CMSCommon.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CMSCommon.h; path = ../CMSCommon/Utility/CMSCommon.h; sourceTree = SOURCE_ROOT; };
+		9490BEEB0B58ACE9002C6E40 /* CMSCommon.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = CMSCommon.m; path = ../CMSCommon/Utility/CMSCommon.m; sourceTree = SOURCE_ROOT; };
+		94E17D870C32EE920092EB39 /* CMSFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CMSFileUtils.h; path = ../CMSCommon/Utility/CMSFileUtils.h; sourceTree = SOURCE_ROOT; };
+		94E17D880C32EE920092EB39 /* CMSFileUtils.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = CMSFileUtils.m; path = ../CMSCommon/Utility/CMSFileUtils.m; sourceTree = SOURCE_ROOT; };
+		94E17E000C32F58D0092EB39 /* CMSDefaults.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CMSDefaults.h; path = ../CMSCommon/Utility/CMSDefaults.h; sourceTree = SOURCE_ROOT; };
+		94E17E010C32F58D0092EB39 /* CMSDefaults.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = CMSDefaults.m; path = ../CMSCommon/Utility/CMSDefaults.m; sourceTree = SOURCE_ROOT; };
+		94F3998D0B4E25F50057CBC4 /* isrunning.pl */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = isrunning.pl; sourceTree = "<group>"; };
+		94F3998E0B4E25F50057CBC4 /* kill.pl */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = kill.pl; sourceTree = "<group>"; };
+		94FAA9130D2EEEDA00D87E11 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				9490917F0DCFA9E900109C03 /* CMSVersioning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				949066DF0B2F5184005CB57F /* Controller.h */,
+				949066E00B2F5184005CB57F /* Controller.m */,
+				949091000DCFA42C00109C03 /* Speech.h */,
+				949091010DCFA42C00109C03 /* Speech.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9490917E0DCFA9E900109C03 /* CMSVersioning.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* SpeechToggle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SpeechToggle */ = {
+			isa = PBXGroup;
+			children = (
+				948146B50B980188000AD29A /* Shared */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = SpeechToggle;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SpeechToggle_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94FAA9120D2EEEDA00D87E11 /* MainMenu.xib */,
+				9454D6C80B4EE634006C2CD5 /* menuiconinvert.tif */,
+				949091480DCFA72100109C03 /* openspeech.scpt */,
+				9454D6C50B4EE43D006C2CD5 /* menuiconoff.tif */,
+				9454D46F0B4E3F68006C2CD5 /* menuiconon.tif */,
+				94F3998D0B4E25F50057CBC4 /* isrunning.pl */,
+				94F3998E0B4E25F50057CBC4 /* kill.pl */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				9454D9D60B4EF432006C2CD5 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		948146B50B980188000AD29A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				94E17E000C32F58D0092EB39 /* CMSDefaults.h */,
+				94E17E010C32F58D0092EB39 /* CMSDefaults.m */,
+				94E17D870C32EE920092EB39 /* CMSFileUtils.h */,
+				94E17D880C32EE920092EB39 /* CMSFileUtils.m */,
+				9490BEEA0B58ACE9002C6E40 /* CMSCommon.h */,
+				9490BEEB0B58ACE9002C6E40 /* CMSCommon.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Speech Toggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Speech Toggle" */;
+			buildPhases = (
+				9460DA180D11BEF40066D5C6 /* CopyFiles */,
+				8D1107290486CEB800E47090 /* Resources */,
+				94E17D9F0C32EFC70092EB39 /* CopyFiles */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Speech Toggle";
+			productInstallPath = "$(HOME)/Applications";
+			productName = SpeechToggle;
+			productReference = 8D1107320486CEB800E47090 /* SpeechToggle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SpeechToggle" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SpeechToggle */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Speech Toggle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				94F3998F0B4E25F50057CBC4 /* isrunning.pl in Resources */,
+				94F399900B4E25F50057CBC4 /* kill.pl in Resources */,
+				9454D4710B4E3F68006C2CD5 /* menuiconon.tif in Resources */,
+				9454D6C60B4EE43D006C2CD5 /* menuiconoff.tif in Resources */,
+				9454D6C90B4EE634006C2CD5 /* menuiconinvert.tif in Resources */,
+				9454D9D70B4EF432006C2CD5 /* Localizable.strings in Resources */,
+				94FAA9140D2EEEDA00D87E11 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				949066E10B2F5184005CB57F /* Controller.m in Sources */,
+				9490BEEC0B58ACE9002C6E40 /* CMSCommon.m in Sources */,
+				94E17D890C32EE920092EB39 /* CMSFileUtils.m in Sources */,
+				94E17E030C32F58D0092EB39 /* CMSDefaults.m in Sources */,
+				949091020DCFA42C00109C03 /* Speech.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9454D9D60B4EF432006C2CD5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9454D9D20B4EF428006C2CD5 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		94FAA9120D2EEEDA00D87E11 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FAA9130D2EEEDA00D87E11 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_5)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../Shared/Frameworks/MyFrameworks/CMSVersioning/build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../Shared/Frameworks/MyFrameworks/CMSDonations/build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../../Shared/Frameworks/CMSFrameworks/CMSVersioning/trunk/build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../Frameworks/CMSFrameworks/CMSDonations/build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_5 = "\"$(SRCROOT)/../Frameworks/CMSVersioning/trunk/build/Release\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SpeechToggle;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_4)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../Shared/Frameworks/MyFrameworks/CMSVersioning/build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../../Shared/Frameworks/MyFrameworks/CMSDonations/build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../../../../Shared/Frameworks/CMSFrameworks/CMSVersioning/trunk/build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)/../../../Frameworks/CMSFrameworks/CMSDonations/build/Release\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../Frameworks/CMSVersioning/trunk/build/Release\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SpeechToggle;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_MODEL_TUNING = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Speech Toggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SpeechToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
