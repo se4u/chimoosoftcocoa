@@ -1,6 +1,5 @@
 //
 //  CMSSpeech.m
-//  ChimooTimer
 //
 //  Created by Ryan on 1/25/07.
 //  Copyright 2007 Chimoosoft. All rights reserved.
