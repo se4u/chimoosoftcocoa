@@ -1,0 +1,23 @@
+/* Chimoosoft common strings shared amongst various programs. */
+
+/* Mostly buttons. */
+
+"Okay" = "Okay";
+"OK" = "OK";
+"Cancel" = "Afbryd";
+"Continue" = "Continue";
+"Quit" = "Afslutt";
+"Reload" = "Reload";
+"Stop" = "Stop";
+"Save" = "Save";
+"Error" = "Error";
+
+
+/* Tiger Checking */
+"UnsupportedVersion" = "Ikke-underst¿ttet Mac OS X version";
+"RequiresTiger" = "Denne version af %@ kr¾ver Mac OS X 10.4 (Tiger) eller nyere.";
+"PleaseUpgrade" = "Opgrader venligst din system software eller download en ¾ldre version af denne software.";
+
+/* Errors */
+"ComponentMissingTitle" = "Component Missing or Modified";
+"ComponentMissingBody" = "A component needed by this software is either missing or has been modified from its original state.  Please re-download a fresh copy of this software.";

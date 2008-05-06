@@ -1,0 +1,25 @@
+﻿/* Translation to Spanish by Carlos Leopoldo Magaña Zavala */
+
+/* Chimoosoft common strings shared amongst various programs. */
+
+/* Mostly buttons. */
+
+"Okay" = "Aceptar";
+"OK" = "Aceptar";
+"Cancel" = "Cancelar";
+"Quit" = "Salir";
+"Continue" = "Continuar";
+"Reload" = "Recargar";
+"Stop" = "Stop";
+"Save" = "Guardar";
+"Error" = "Error";
+
+
+/* Tiger Checking */
+"UnsupportedVersion" = "No soporta la versión de Mac OS X.";
+"RequiresTiger" = "Este software requiere Mac OS X 10.4 (Tiger) o posterior.";
+"PleaseUpgrade" = "Por favor, actualice su software de sistema o descargar una versión de este software.";
+
+/* Errors */
+"ComponentMissingTitle" = "Componente Desaparecidos o Modificados";
+"ComponentMissingBody" = "Un componente necesario de este software es o bien desaparecidos o ha sido modificado desde su estado original. Por favor, vuelva a descargar una nueva copia de este software.";

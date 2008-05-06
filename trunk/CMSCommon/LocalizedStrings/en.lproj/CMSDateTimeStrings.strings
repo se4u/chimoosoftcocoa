@@ -1,0 +1,10 @@
+/* Time formatting strings. */
+
+"hour" = "hour";
+"hours" = "hours";
+"minute" = "minute";
+"minutes" = "minutes";
+"second" = "second";
+"seconds" = "seconds";
+
+"NoTimeElapsed" = "No time elapsed.";
