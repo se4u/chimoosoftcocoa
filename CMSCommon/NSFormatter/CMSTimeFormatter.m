@@ -1,6 +1,5 @@
 //
 //  CMSTimeFormatter.m
-//  ChimooTimer
 //
 //  Created by Ryan Poling on 1/16/07.
 //  Copyright 2007 Chimoosoft. All rights reserved.
